@@ -1,0 +1,58 @@
+/* .root{
+	-fx-border-top-color : blue;
+}*/
+.thin{
+	-fx-font-size: 16px;
+	-fx-text-fill: lightgrey;
+	-fx-padding: 1px;
+     -fx-border-insets: 1px;
+     -fx-background-insets: 1px;
+     -fx-background-color: #323232;
+}
+.thin:hover{
+	-fx-background-color: #3b3b3b;
+}
+
+.bold{
+	-fx-font-size: 20px;
+	-fx-font-weight:bolder;
+	-fx-text-fill: lightgrey;
+	-fx-padding: 1px;
+     -fx-border-insets: 1px;
+     -fx-background-insets: 1px;
+     -fx-background-color: #3b3b3b;
+}
+.bold:hover{
+	-fx-background-color: #323232;
+}
+
+
+#output{
+	-fx-font-size: 50px;
+	-fx-font-weight:  bolder;
+	-fx-background-color: #232628;
+	-fx-text-fill: lightgrey;
+}
+#memShort{
+	-fx-font-size: 20px;
+	-fx-text-fill: lightgrey;
+}
+
+#fond1{
+	-fx-background-color: #232628;
+}
+
+#equal{
+	-fx-background-color: #ffc133;
+	-fx-text-fill: #3b3b3b;
+	
+}
+#equal:hover{
+	-fx-background-color: #eeb022;
+}
+.historyMenu:expanded{
+	-fx-opacity: 1;
+}
+.historyMenu:collapsed{
+	-fx-opacity: 0;
+}
